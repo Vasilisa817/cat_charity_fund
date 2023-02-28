@@ -87,4 +87,3 @@ class CRUDCharityProject(CRUDBase):
 
 
 project_crud = CRUDCharityProject(CharityProject)
-print(dir(project_crud))

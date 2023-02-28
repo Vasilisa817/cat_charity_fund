@@ -84,7 +84,7 @@ async def check_correct_full_amount_for_update(
         raise HTTPException(
             status_code=HTTPStatus.UNPROCESSABLE_ENTITY,
             detail=(
-                f'Новая требуемая сумма должна быть больше уже '
+                'Новая требуемая сумма должна быть больше уже '
                 f'внесенной в проект суммы - {db_project_invested_amount}'
             )
         )
